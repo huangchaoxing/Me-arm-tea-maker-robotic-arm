@@ -1,9 +1,13 @@
 # Me-arm-tea-maker-robotic-arm
 bachelor project. vision control in opencv and arduino C++
+
 Overview:
 this is a project of a vision based me-arm that can make tea with a tea bag.
 the opencv will calculate the position of the centre of the cup and send the coordinate 
 to the arduino controller, the controller will then make the arm moving in a certain movement
+
+Here is an video that shows how it work:https://www.youtube.com/watch?v=s4jkMhVCvxM
+                                        https://www.bilibili.com/video/av16741350/ (for those who can't go to youtube)
 
 how to use the code:
 1 what you need: a Mearm robot: https://shop.mime.co.uk/collections/frontpage/products/mearm-pocket-sized-robot-arm
@@ -11,6 +15,8 @@ how to use the code:
                  arduino 328
                  usb web cam
                  personal computer
+                 
+                 
 2  the robotic part: The  file arduino-code.ino is what you need to burn to the arduino controller. it is mainly an inverse_kinematic
    implementation of the mearm. A rough kinematic model of the mearm is demonstrated in the file model.m(to see the simulation model you    will need a matlab with the robotic toolbox of peter corke http://petercorke.com/wordpress/toolboxes/robotics-toolbox)
    
