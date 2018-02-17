@@ -17,4 +17,4 @@ how to use the code:
 3 the vision part: 1 make sure to clone the head file bot_control.h and tserial.h to your pc and include them in the opencv.cpp, these two                      ensure the serial communication of opencv and arduino(a detailed tutorial of serial communication of opencv and                            arduino can be seen here:https://www.youtube.com/watch?v=UiDXnww0LQ4 )
                    2 camera calibration. you will need to calibrate the fixed camera to obtain the matrix that can caculate the actual                           position of the cup
             
-       
+       
