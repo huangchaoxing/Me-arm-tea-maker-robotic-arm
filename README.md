@@ -1,5 +1,6 @@
 # Me-arm-tea-maker-robotic-arm
-bachelor project. vision control in opencv and arduino C++
+#Bachelor project#
+\textbf{vision control in opencv and arduino C++}
 
 Overview:
 this is a project of a vision based me-arm that can make tea with a tea bag.
