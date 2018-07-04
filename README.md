@@ -2,7 +2,7 @@
 **Bachelor project**
 vision control in opencv and arduino C++
 
-##*Overview*:
+## **Overview**:
 This is a project of a vision based me-arm that can make tea with a tea bag.  
 The opencv will calculate the position of the centre of the cup and send the coordinate 
 to the arduino controller, the controller will then make the arm moving in a certain movement
@@ -10,9 +10,9 @@ to the arduino controller, the controller will then make the arm moving in a cer
 Here is an video that shows how it work:https://www.youtube.com/watch?v=s4jkMhVCvxM
                                         https://www.bilibili.com/video/av16741350/ (for those who can't go to youtube)
 
-##How to use the code:
+## **How to use the code**:  
 1.What you need: a Mearm robot: https://shop.mime.co.uk/collections/frontpage/products/mearm-pocket-sized-robot-arm
-                 opencv 2.4.9 (C++ version). The opencv 3.0+ might be ok but it is not guatanteed
+                 opencv 2.4.9 (C++ version). The opencv 3.0+ might be ok but it is not guatanteed.  
                  arduino 328
                  usb web cam
                  personal computer
