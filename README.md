@@ -11,11 +11,12 @@ Here is an video that shows how it work:https://www.youtube.com/watch?v=s4jkMhVC
                                         https://www.bilibili.com/video/av16741350/ (for those who can't go to youtube)
 
 ## **How to use the code**:  
-1.What you need: a Mearm robot: https://shop.mime.co.uk/collections/frontpage/products/mearm-pocket-sized-robot-arm
+1.What you need:   
+- a Mearm robot: https://shop.mime.co.uk/collections/frontpage/products/mearm-pocket-sized-robot-arm
                  opencv 2.4.9 (C++ version). The opencv 3.0+ might be ok but it is not guatanteed.  
-                 arduino 328  
-                 usb web cam  
-                 personal computer
+- arduino 328  
+- usb web cam  
+- personal computer
                  
                  
 2.The robotic part: The  file arduino-code.ino is what you need to burn to the arduino controller. It is mainly an inverse_kinematic
@@ -23,6 +24,6 @@ Here is an video that shows how it work:https://www.youtube.com/watch?v=s4jkMhVC
    
 3.The vision part:  
 - Make sure to clone the head file bot_control.h and tserial.h to your pc and include them in the opencv.cpp, these two                      ensure the serial communication of opencv and arduino(a detailed tutorial of serial communication of opencv and                            arduino can be seen here:https://www.youtube.com/watch?v=UiDXnww0LQ4 )  
-                  - camera calibration. you will need to calibrate the fixed camera to obtain the matrix that can caculate the actual                           position of the cup
+- Camera calibration. You will need to calibrate the fixed camera to obtain the matrix that can caculate the actual                           position of the cup
             
        
